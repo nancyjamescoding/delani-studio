@@ -40,10 +40,9 @@
 .section3{
     height: 40vh;
     background-image: url('../assets/backgrounds/s_image.jpg');
+    background-repeat: no-repeat;
     text-align: center;
     color: white;
-    background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Copse', serif;
     padding-top: 100px;
