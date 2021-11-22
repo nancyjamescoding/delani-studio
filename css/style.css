@@ -153,11 +153,11 @@
 }
 #portfolio{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap; 
     align-items: center;
     margin-left:20%;
     margin-right: 18%; 
-  }
+  }  
   .col-md-3 img{
     max-width: 100%;
     max-height: 100%;
@@ -172,20 +172,31 @@
     background-color: rgba(0, 0, 0, 0);
   }
   
-  input[type=text] {
+  input[type=text], input[type=email] {
     background:transparent;
     color: white;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding-left: 10px;
+    width: 100%;
+    height: 50px;
   }
-  textarea[type=text] {
+
+  .message {
     background:transparent;
     color: white;
+    width: 100%;
+    height: 300px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding-left: 10px;
   }
   
   .submit{
     position:absolute;
     padding-left: 25%;
   }
-  .Contact-Us {
+  /* .Contact-Us {
     background-image: url(../assets/backgrounds/s_image.jpg);
     background-size:cover;
     display: cover;
@@ -211,13 +222,13 @@
   
   .submit{
     position:absolute;
-    padding-left: 25%;
+    padding-left: 25%;*/
   }
   footer{
     text-align: center;
     padding-top: 30px;
     font-family: cursive;
-  }
+  } 
   footer p{
     margin-top: 10px;
   }   
@@ -239,3 +250,16 @@
   .row{
     padding:2%;
   }
+  #contacts{
+      background-image: url(../assets/backgrounds/c_image.jpg );
+      background-position: center;
+  }
+ .btn-warning{
+     color: #d28348 !important;
+     border-color: #d28348 !important;
+ }
+ .btn-warning:hover{
+     background-color: #d28348 !important;
+     color:white!important;
+
+ }
