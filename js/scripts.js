@@ -21,7 +21,7 @@ $('#contacts-fm').submit(
         }
         else{myform.method=('post')
              myform.action=('https://gmail.us20.list-manage.com/subscribe/post?u=0674e772a8702cce9f1f&amp;id=f3770d27b3b7371')
-             alert('Name'+ 'submitted successfully')
+             alert(name + ', we have recieved your message.Thankyou for reaching out to us')
              return true;
 
         }
